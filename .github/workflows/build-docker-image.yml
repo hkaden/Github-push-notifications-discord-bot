@@ -43,7 +43,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: hkaden/github-push-notifications-discord-bot:latest        
+          tags: ghcr.io/hkaden/github-push-notifications-discord-bot:latest        
       -
         name: Trigger Webhooks
         uses: zzzze/webhook-trigger@master
