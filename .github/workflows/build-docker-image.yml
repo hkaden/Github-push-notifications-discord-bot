@@ -49,5 +49,4 @@ jobs:
         uses: zzzze/webhook-trigger@master
         with:
           data: ""
-          platforms: linux/amd64,linux/arm64
           webhook_url: ${{ secrets.PORTAINER_WEBHOOK }}
