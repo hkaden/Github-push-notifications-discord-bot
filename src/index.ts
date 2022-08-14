@@ -20,7 +20,7 @@ const rest = new REST({ version: "10" }).setToken(TOKEN);
 const init = async () => {
     const server = Hapi.server({
         port: PORT,
-        host: "localhost",
+        host: "0.0.0.0",
     });
 
     try {
